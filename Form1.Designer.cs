@@ -92,15 +92,7 @@
             this.button1.Text = "Cộng";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(137, 186);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 30);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Trừ";
-            this.button2.UseVisualStyleBackColor = true;
+
             // 
             // Form1
             // 
