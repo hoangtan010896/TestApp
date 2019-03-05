@@ -33,8 +33,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.c = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -75,12 +76,12 @@
             this.textBox2.Size = new System.Drawing.Size(183, 22);
             this.textBox2.TabIndex = 1;
             // 
-            // textBox3
+            // c
             // 
-            this.textBox3.Location = new System.Drawing.Point(137, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(183, 22);
-            this.textBox3.TabIndex = 1;
+            this.c.Location = new System.Drawing.Point(137, 143);
+            this.c.Name = "c";
+            this.c.Size = new System.Drawing.Size(183, 22);
+            this.c.TabIndex = 1;
             // 
             // button1
             // 
@@ -90,14 +91,25 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Cộng";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(137, 186);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(88, 30);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Trừ";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(370, 285);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.c);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
@@ -117,8 +129,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox c;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
